@@ -1,0 +1,213 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7420652944,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I open Mozilla",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.open_Browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2108505691,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I navigate to loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 14
+                }
+              ],
+              "location": "GenericSteps.navigate_to_url(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4727179470,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I Login inside application",
+            "match": {
+              "location": "ApplicationSteps.login(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "ashishthakur1983"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "pass@1234"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 341108178,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Creating a Portfolio",
+        "description": "",
+        "id": "title-of-your-feature;creating-a-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 610284553,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9476345950,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click create_PortfolioID and wait for portfolioName_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "create_PortfolioID",
+                  "offset": 8
+                },
+                {
+                  "val": "portfolioName_id",
+                  "offset": 40
+                }
+              ],
+              "location": "GenericSteps.clickAndWait(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243424208,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I clear portfolioName_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portfolioName_id",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.clear(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268396874,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I type Port121 in portfolioName_id field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Port121",
+                  "offset": 7
+                },
+                {
+                  "val": "portfolioName_id",
+                  "offset": 18
+                }
+              ],
+              "location": "GenericSteps.type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 889699781,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on portfolioSubmit_id button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "portfolioSubmit_id",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click_continue(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Portfolio"
+          },
+          {
+            "name": "@createPortfolio"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/qtpselenium/rediff/Portfolio.feature",
+    "tags": [
+      {
+        "name": "@Portfolio",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
