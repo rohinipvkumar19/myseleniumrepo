@@ -95,7 +95,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I type Port12121 in portfolioName_id field",
+  "name": "I type Port12124 in portfolioName_id field",
   "keyword": "And "
 });
 formatter.match({

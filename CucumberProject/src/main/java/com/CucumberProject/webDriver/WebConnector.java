@@ -30,7 +30,7 @@ import com.CucumberProject.reports.ExtentManager;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import static org.assertj.core.api.Assertions.*;
+//import static org.assertj.core.api.Assertions.*;
 
 
 public class WebConnector {

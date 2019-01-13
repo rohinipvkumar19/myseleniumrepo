@@ -32,7 +32,7 @@ Background:
   Scenario: Creating a Portfolio
     And I click create_PortfolioID and wait for portfolioName_id
     And I clear portfolioName_id
-    And I type Port12122 in portfolioName_id field
+    And I type Port12124 in portfolioName_id field
     And I click on portfolioSubmit_id button
 
   #@deletePortfolio

@@ -132,8 +132,7 @@ formatter.match({
   "location": "ApplicationSteps.login(String,String\u003e)"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\r\n\tat com.CucumberProject.webDriver.WebConnector.type(WebConnector.java:118)\r\n\tat com.CucumberProject.webDriver.WebConnector.Login(WebConnector.java:139)\r\n\tat com.CucumberProject.steps.ApplicationSteps.login(ApplicationSteps.java:33)\r\n\tat ✽.I Login inside application(C:/Users/MYPC/workspace/CucumberProject/src/test/resources/com/qtpselenium/rediff/Login.feature:26)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "Login should be Success",
@@ -143,7 +142,7 @@ formatter.match({
   "location": "ApplicationSteps.ValidateLogin(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"

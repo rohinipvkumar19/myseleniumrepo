@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 925824770,
+              "duration": 768776672,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 736456236,
+              "duration": 2519696086,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8679888115,
+              "duration": 15329856092,
               "status": "passed"
             },
             "line": 24,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 36104368879,
+              "duration": 26046454694,
               "status": "passed"
             },
             "line": 25,
@@ -70,9 +70,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat com.CucumberProject.webDriver.WebConnector.type(WebConnector.java:118)\r\n\tat com.CucumberProject.webDriver.WebConnector.Login(WebConnector.java:139)\r\n\tat com.CucumberProject.steps.ApplicationSteps.login(ApplicationSteps.java:33)\r\n\tat ✽.I Login inside application(C:/Users/MYPC/workspace/CucumberProject/src/test/resources/com/qtpselenium/rediff/Login.feature:26)\r\n",
-              "duration": 40875367873,
-              "status": "failed"
+              "duration": 2388446288,
+              "status": "passed"
             },
             "line": 26,
             "name": "I Login inside application",
@@ -97,7 +96,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2899564602,
+              "status": "passed"
             },
             "line": 29,
             "name": "Login should be Success",
